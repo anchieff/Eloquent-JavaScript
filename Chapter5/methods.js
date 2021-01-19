@@ -9,3 +9,6 @@ function speak(line) {
 
 let whiteRabbit = {type: 'Белый', speak};
 let hungryRabbit = {type: 'Голодный', speak};
+
+whiteRabbit.speak('Oh, no, I wonna be on time');
+hungryRabbit.speak('I am hungry!')
