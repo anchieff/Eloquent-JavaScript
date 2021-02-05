@@ -38,3 +38,19 @@ let killerRabbit = new Rabbit('killer');
 
 blackRabbit.speak("I am very happy");
 killerRabbit.speak('Kill you');
+
+Rabbit.prototype.teeth = 'small'; 
+
+killerRabbit.teeth = 'big and sharp'
+console.log(Rabbit.prototype.teeth)
+
+console.log(String(blackRabbit))
+
+Rabbit.prototype.toString = function() {
+  return `${this.type} rabbit`
+}
+
+console.log(String(blackRabbit))
+
+
+
